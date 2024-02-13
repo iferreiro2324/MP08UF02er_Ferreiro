@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+body{
+    background-image: url(../img/fons.jpg);
+}
+.titol{
+    font-size: 4rem;
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin: auto;
+}
+.coche{
+    width: 1000px;
+    height: 1000px;
+    background-image: url(../img/ani/ghost.png);
+    background-repeat: no-repeat;
+}
+.cap{
+    height: 589px;
+    width: auto;
+}
+.centree{
+    width: 960px;
+    height: 589px;
+    margin: auto;
+    padding-left: 125px;
+}
+.cos{
+
+}
+.centre{
+    width: 960px;
+    height: 780px;
+    margin: auto;
+    padding-left: 125px;
+}
+.pulp{
+height: 200px;
+width: 250px;
+background-image: url(../img/small/small_pulp.jpg);
+margin: 10px;
+float: left;
+}
+.taxi{
+height: 200px;
+width: 250px;
+background-image: url(../img/small/small_taxi.jpg);
+margin: 10px;
+float: left;
+}
+.bond{
+    height: 200px;
+    width: 250px;
+    background-image: url(../img/small/small_bond.jpg);
+    margin: 10px;
+    float: left;
+    }
+.ghost{
+        height: 200px;
+        width: 250px;
+        background-image: url(../img/small/small_ghost.jpg);
+        margin: 10px;
+        float: left;
+    }
+.bean{
+    height: 200px;
+    width: 250px;
+    background-image: url(../img/small/small_bean.jpg);
+    margin: 10px;
+     float: left;
+     }
+.future{
+        height: 200px;
+        width: 250px;
+         background-image: url(../img/small/small_back.jpg);
+         margin: 10px;
+        float: left;
+    }
+.rider{
+        height: 200px;
+        width: 250px;
+         background-image: url(../img/small/small_rider.jpg);
+         margin: 10px;
+        float: left;
+    }
+.team{
+        height: 200px;
+        width: 250px;
+         background-image: url(../img/small/small_team.jpg);
+         margin: 10px;
+        float: left;
+    }
+.bad{
+        height: 200px;
+        width: 250px;
+         background-image: url(../img/small/small_break.jpg);
+         margin: 10px;
+        float: left;
+    }
+.subtitol{
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 160px;
+    
+}
+h2{
+    font-size: 1rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+h2:hover{
+    color: black;
+}
+.peu{
+    height: 220px;
+    width: auto;
+}
+.logo{
+    height: 300px;
+    width: 300px;
+    background-image: url(../img/logo_carsandfilms.png);
+    text-align: center;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@keybind giro{
+    0%{
+        positn: 45deg;
+    }
+    25%{
+        position: 180deg;
+    }
+    50%{
+        position: 260deg;
+    }
+    100%{
+        position: 360deg;
+    }
+}
